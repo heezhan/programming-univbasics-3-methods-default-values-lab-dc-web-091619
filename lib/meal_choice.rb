@@ -4,4 +4,5 @@ def meal_choice(veg1, veg2, protein = "meat")
   
   puts first_line
   puts second_line
+  return second_line
 end
