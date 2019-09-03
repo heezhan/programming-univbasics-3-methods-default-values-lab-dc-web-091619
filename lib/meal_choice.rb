@@ -1,6 +1,7 @@
 def meal_choice(veg1, veg2, protein = "meat")
-  puts "What a nutritious meal!"
-  puts "A plate of #{protein} with #{veg1} and #{veg2}."
+  first_line = "What a nutritious meal!"
+  second_line = "A plate of #{protein} with #{veg1} and #{veg2}."
+  
+  puts first_line
+  puts second_line
 end
-
-meal_choice
